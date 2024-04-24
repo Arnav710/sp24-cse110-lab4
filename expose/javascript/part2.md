@@ -55,3 +55,25 @@ Hello!
 Thomas Powell
 CSE 110
 ```
+
+13.
+
+A. '32'
+B. 1
+C. 3
+D.' 3null'
+E. 4
+F. 0
+G. '3undefined'
+H. NaN
+
+14.
+
+A. true
+B. false
+C. true
+D. false
+E. false
+F. true
+
+15. `==` is used for a non-strict equality check while `===` is used for a strict equality check. In other words, `===` checks for equality without carrying out type conversion.
