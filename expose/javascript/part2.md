@@ -77,3 +77,7 @@ E. false
 F. true
 
 15. `==` is used for a non-strict equality check while `===` is used for a strict equality check. In other words, `===` checks for equality without carrying out type conversion.
+
+16. part2-question16.js
+
+17. The result will be [3, 4, 6]. A callback function is a function that can be passed in as a parameter to another function. We iterate over `array` passed in as an input and on each of its elements, pass it through the callback function before adding it to the new array. So, each element in the initial array gets multiplied by 2.
