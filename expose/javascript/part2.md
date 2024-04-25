@@ -18,11 +18,11 @@ Output = [50, 100, 150]
 
 Output = [50, 100, 150]
 
-9. There would be an error. This is because we are trying to modify (add an element) to an array declared as a constant.
+9. There would be an error. This is because i is not defined in that scope since it is declared using `let`
 
-10. There would be an error. This is because we are trying to modify (add an element) to an array declared as a constant.
+10. The output woudld be 3, which is the length of the `prices` array. Also, the `length` is defined in the same block scope.
 
-11. There would be an error. This is because we are trying to modify (add an element) to an array declared as a constant.
+11. The function returns [50, 100, 150]. This is because we iterate over each element of the `prices` array and push `discountedPrice` into the `discounted` array. All variable access are legal, keeping in mind the scope of the variables.
 
 12.
 
